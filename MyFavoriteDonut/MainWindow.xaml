@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MyFavoriteDonut"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid Margin="-145,0,0,0">
-        
+        Title="Donuts" Height="450" Width="800" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+    <Grid Margin="-145,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBox x:Name="My_favorite_donut" HorizontalAlignment="Center" Margin="0" TextWrapping="Wrap" Text="I like donuts in general." VerticalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24"/>
+
     </Grid>
 </Window>
