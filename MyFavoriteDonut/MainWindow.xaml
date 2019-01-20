@@ -6,8 +6,5 @@
         xmlns:local="clr-namespace:MyFavoriteDonut"
         mc:Ignorable="d"
         Title="Donuts" Height="450" Width="800" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
-    <Grid Margin="-145,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center">
-        <TextBox x:Name="My_favorite_donut" HorizontalAlignment="Center" Margin="0" TextWrapping="Wrap" Text="I like donuts in general." VerticalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24"/>
-
-    </Grid>
+    <Label Content="I like donuts in general" HorizontalAlignment="Left" Margin="202,181,0,0" VerticalAlignment="Top" FontSize="36"/>
 </Window>
